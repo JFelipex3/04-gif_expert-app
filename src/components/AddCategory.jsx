@@ -4,7 +4,7 @@ export const AddCategory = ({ onNewCategory }) => {
 
   const [ inputValue, setInputValue ] = useState('');
 
-  // Se puede desestructurar como { target }
+  // Se puede desestructurar el event como { target }
   const onInputChange = ( { target } ) => {
     setInputValue( target.value );
   }
