@@ -3,6 +3,6 @@ module.exports = {
     setupFiles: ['./jest.setup.js'],
     transform: {
         '^.+\\.(js|jsx)$': 'babel-jest',
-        '^.+\\.(ts|tsx)$': 'ts-jest',
+        //'^.+\\.(ts|tsx)$': 'ts-jest', // Esto se usa para TypeScript
     },
 }
